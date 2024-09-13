@@ -1,0 +1,19 @@
+/* FONTS */
+@import url("../fonts/Circe/stylesheet.css"); 
+
+
+/* PARTS */
+@import url("parts/_main.css");
+@import url("parts/_navbar.css");
+@import url("parts/_reset.css");
+@import url("parts/_section.css");
+@import url("parts/_container.css");
+@import url("parts/_title.css");
+@import url("parts/_btn.css");
+@import url("parts/_tooltip.css");
+@import url("../img/Rectangle.svg");
+@import url("parts/_link.css");
+@import url("parts/_dropdown.css");
+@import url("parts/_checkbox.css");
+@import url("parts/_switch.css");
+@import url("parts/_field.css");

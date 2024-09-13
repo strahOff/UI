@@ -1,0 +1,13 @@
+.link{
+    font-size: 18ox;
+    font-weight: 700;
+    line-height: 27px;
+    color: white;
+    text-decoration: underline;
+    transition: color 150ms ease-in-out;
+    cursor: default;
+}
+.link:hover{
+    color: #F73164;
+    text-decoration: none;
+}

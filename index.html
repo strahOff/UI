@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ui practice</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/easy-toggler@2.2.7"></script>
+</head>
+<body>
+<div class="container">
+   <div>  
+    <nav class="navbar">
+        <a href="#buttons" class="navbar__link">1. Кнопки</a>
+        <a href="#tooltip" class="navbar__link">2. Подсказки</a>
+        <a href="#dropdowns" class="navbar__link">3. Выпадающее меню</a>
+        <a href="#checkbox" class="navbar__link">4. checkbox, switch</a>
+        <a href="#inputs" class="navbar__link">5. Поля ввода</a>
+        <a href="#menubar" class="navbar__link">6. Меню сайта</a>
+        <a href="#modal" class="navbar__link">7. Модальное окно</a>
+        <a href="#cards" class="navbar__link">8. Карточки</a>
+    </nav>
+   </div>
+
+    <!-- /.navbar -->
+     <main class="main">
+
+       <section id="buttons" class="section">
+         <h2 class="title">1. Кнопки</h2>
+        <button class="btn"> Кнопка</button>
+        <button class="btn btn--rounded"> Кнопка</button>
+        </section>
+       <!-- /#buttons.section -->
+
+       <section id="tooltip" class="section">
+        <h2 class="title">2. Подсказки</h2>
+        <span class="link" data-tooltip="Текст какой-либо подсказки по наведению на текст">Подсказка стандарт</span>
+      </section>
+      <!-- /#tooltips.section -->
+
+      <section id="dropdowns" class="section">
+        <h2 class="title" >3. Выпадающее меню</h2>
+        <div class="dropdown">
+          <a href="#" easy-toggle="#drop1" easy-class="dropdown__drop--active" easy-rcoe class="link">Выпадающее меню</a>
+          <div id="drop1" class="dropdown__drop">
+            <a href="#" class="dropdown__drop-item">Элемент меню</a>
+            <a href="#" class="dropdown__drop-item">Второй элемент </a>
+            <a href="#" class="dropdown__drop-item">Третий элемент </a>
+          </div>
+          <!-- /#drop1.dropdown__drop -->
+        </div>
+        <!-- /#dropdown -->
+      </section>
+      <!-- /#dropdown.section -->
+
+
+      <section id="checkbox" class="section">
+        <h2 class="title">4. checkbox, switch</h2>
+        <div>
+          <div class="switch">
+            <input type="checkbox" name="switch1" id="switch1">
+            <label for="switch1" class="switch__label">Текст какого-то свитча</label>
+          </div>
+          <!-- /.switch -->
+        </div>
+        <div>
+          <div class="switch">
+            <input type="checkbox" name="switch1" id="switch2" disabled checked>
+            <label for="switch2" class="switch__label">Текст какого-то свитча</label>
+          </div>
+          <!-- /.switch -->
+        </div>
+        <div>
+          <div class="checkbox">
+            <input type="checkbox" name="check1" id="check1">
+            <label for="check1" class="checkbox__label">Текст какого-то чекбокса</label>
+          </div>
+          <!-- /.checkbox -->
+        </div>
+      </section>
+      <!-- /#checkbox.section -->
+
+      <section id="inputs" class="section">
+        <h2 class="title">5. Поля ввода</h2>
+        <div style="width: 440px;">
+          <div class="field">
+            <input type="text" class="field__control" placeholder="Введите ваше имя">
+          </div>
+        </div>
+        <!-- /.field -->
+        <div style="width: 440px;">
+          <div class="field">
+            <span class="akar-icons--search"></span>
+            <input type="text" class="field__control" placeholder="Поиск...">
+            
+          </div>
+        </div>
+        <!-- /.field -->
+      </section>
+      <!-- /#inputs.section -->
+
+
+      <section id="menubar" class="section">
+        <h2 class="title">6. Меню сайта</h2>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit dolorem fuga maxime? Corrupti iusto officia reiciendis veniam esse ab magni maxime omnis sapiente debitis dignissimos, unde natus? Aspernatur, molestiae?
+      </section>
+      <!-- /#menubar.section -->
+
+      
+      <section id="modal" class="section">
+        <h2 class="title">7. Модальное окно</h2>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit dolorem fuga maxime? Corrupti iusto officia reiciendis veniam esse ab magni maxime omnis sapiente debitis dignissimos, unde natus? Aspernatur, molestiae?
+      </section>
+      <!-- /#modal.section -->
+      <section id="cards" class="section">
+        <h2 class="title">8. Карточки</h2>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit dolorem fuga maxime? Corrupti iusto officia reiciendis veniam esse ab magni maxime omnis sapiente debitis dignissimos, unde natus? Aspernatur, molestiae?
+      </section>
+      <!-- /#cards.section -->
+        
+     </main>
+</div>
+<!-- /.container -->
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+[data-tooltip] {
+    position: relative;
+
+}
+
+[data-tooltip]:before{
+    color: white !important;
+    content: attr(data-tooltip) ;
+    position: absolute;
+    left: calc(100% + 12px);
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #16182D;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: auto;
+    width: 217px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 100ms ease-in-out;
+
+}
+[data-tooltip]:after{
+    position: absolute;
+    content:url(../../img/Rectangle.svg);
+    clip-path: polygon(50% 0%, 50% 50%, 50% 100%, 0% 50%);
+    top: 50%;
+    transform: translateY(-50%);    
+    height: 15px;
+    left: calc(100% + 5px);
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 100ms ease-in-out;
+}
+
+[data-tooltip]:hover::after{
+    z-index: 100;
+    opacity: 1;
+    visibility: visible;
+    left: calc(100% + 9px);
+}
+
+[data-tooltip]:hover:before{
+z-index: 100;
+opacity: 1;
+visibility: visible;
+left: calc(100% + 16px);
+}
+
